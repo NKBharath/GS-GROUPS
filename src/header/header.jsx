@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import CurrentDateTime from '../jsfiles/dateandtime';
 const Header = () => {
   return (
     <div className='header'>
@@ -15,7 +16,7 @@ const Header = () => {
         <p>Developed By</p>
       </div>
       <div className="right-header-section">
-        <p>date and time</p>
+        <CurrentDateTime />
       </div>
     </div>
   )
