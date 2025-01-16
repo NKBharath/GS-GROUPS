@@ -1,9 +1,10 @@
 import React from 'react'
-
+import './body.css';
+import Swipe from './swipe';
 const Body = () => {
   return (
     <div>
-      <h1 classname='text-6xl'>hi2</h1>
+      <Swipe />
     </div>
   )
 }

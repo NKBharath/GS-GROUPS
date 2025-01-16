@@ -1,0 +1,76 @@
+/* Main container for the swiper */
+.swiper-main-container {
+    max-width: 1984px; /* 124rem converted to px */
+}
+
+/* Swiper container */
+.swiper-container {
+    height: 350px; /* 52rem */
+    padding-top: 20px;
+    padding-bottom: 10px;
+    max-width: 740px;
+    position: relative;
+}
+
+/* Swiper slide */
+.swiper-slide {
+    width: 300px; /* Adjusted for smaller image size */
+    height: 300px; /* Adjusted for smaller image size */
+    position: relative;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
+}
+
+/* Image inside the swiper slide */
+.swiper-slide img {
+    width: 300px; /* Image takes full width of the slide */
+    height: 300px; /* Image takes full height of the slide */
+    object-fit: cover; /* Ensures image covers the slide area without stretching */
+    border-radius: 32px; /* Optional: rounded corners */
+}
+
+/* Adjustments for mobile screens */
+@media (max-width: 500px) {
+    .swiper-container {
+        height: 752px; /* 47rem */
+    }
+    .swiper-slide {
+        width: 448px !important; /* Smaller width for smaller screens */
+        height: 576px !important; /* Smaller height for smaller screens */
+    }
+    .swiper-slide img {
+        width: 100%; /* Ensure image takes full width of the slide */
+        height: 100%; /* Ensure image takes full height of the slide */
+        object-fit: cover; /* Cover the slide area without stretching */
+    }
+}
+
+/* Remove swiper slide shadows */
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+    display: none;
+}
+
+/* Slider controls container (no changes made here) */
+.slider-controler {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.swiper-pagination {
+    position: relative;
+    width: 240px !important; /* 15rem */
+}
+
+/* Pagination bullets */
+.swiper-pagination  {
+    filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1)); /* Optional: adding shadow */
+}
+
+/* Active pagination bullet */
+.swiper-pagination {
+    background: var(--primary); /* Active bullet color */
+}
