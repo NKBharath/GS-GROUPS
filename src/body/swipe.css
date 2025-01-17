@@ -1,6 +1,7 @@
 .swiper-main-container{
     max-width: 738px;
     margin: 0 auto;
+    margin-bottom: 10px;
   }
   
   .swiper-container {

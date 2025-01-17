@@ -1,13 +1,12 @@
 import React from 'react'
 import './header.css'
 import CurrentDateTime from '../jsfiles/dateandtime';
+import gslogo from '../assets/gs_groups.png'
 const Header = () => {
   return (
     <div className='header'>
       <div className="left-header-section">
-        <div>logo</div>
-        <div>logo</div>
-        <div>logo</div>   
+           <img src={gslogo} alt="" />
       </div>
       <div className="middle-header-section">
         <p>Home</p>

@@ -1,0 +1,13 @@
+.body-container{
+    padding-top: 80px;
+    background-color:aquamarine;
+}
+.body-omeba-container{
+    display: flex;
+}
+.body-omeba-container img{
+    width: 800px;
+    margin-top: -120px;
+    align-items:center ;
+    justify-content: center;
+}
