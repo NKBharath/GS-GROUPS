@@ -6,8 +6,39 @@
     display: flex;
 }
 .body-omeba-container img{
-    width: 800px;
-    margin-top: -120px;
+    width: 650px;
+    margin-top: -80px;
     align-items:center ;
     justify-content: center;
+}
+.body-omeba-container-right{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.omeba-insta,
+.omeba-quotation,
+.omeba-contact{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    gap: 10px;
+}
+.omeba-insta img{
+    width: 30px;
+    margin: 0;
+}
+.omeba-insta p{
+    
+}
+.omeba-quotation img{
+    width: 32px;
+    margin: 0;
+}
+.omeba-contact img{
+    width: 30px;
+    margin: 0;
 }
