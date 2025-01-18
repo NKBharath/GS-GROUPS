@@ -14,15 +14,27 @@ const Body = () => {
         <div className="body-omeba-container-right">
           <div className="omeba-insta">
             <img src={insta_logo} alt="insta logo" />
-            <p>Instagaram</p>
+            <div className='para'>  
+            <p>Folow us on Instagram</p>
+            <p>Get updates through instagram</p>
+            <p>Watch shorts, promos, sudden offers</p>
+            </div>
           </div>
           <div className="omeba-quotation">
             <img src={quotaion_logo} alt="" />
-            <p>Ask for Quotaion</p>
+            <div className='para'>
+              <p>Ask for Quotaion</p>
+              <p>Get the price for your plan</p>
+              <p>Look into available plans and offers</p>
+            </div>
           </div>
           <div className="omeba-contact">
             <img src={contact_logo} alt="" />
-            <p>Contact Us</p>
+            <div className='para'>
+              <p>Contact Us</p>
+              <p>Talk with the trip planner</p>
+              <p>Get to know the best options for you</p>
+            </div>
           </div>
         </div>
       </div>

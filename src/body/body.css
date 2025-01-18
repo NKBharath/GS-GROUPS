@@ -8,37 +8,46 @@
 .body-omeba-container img{
     width: 650px;
     margin-top: -80px;
-    align-items:center ;
-    justify-content: center;
+    
 }
 .body-omeba-container-right{
+    margin: auto;
     display: flex;
-    width: 100%;
-    gap: 20px;
     flex-direction: column;
+    gap: 10px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    background: #32323c;
+    color: #a0a0a0;
+    padding: 50px;
+    border-radius: 50px;
 }
 .omeba-insta,
 .omeba-quotation,
 .omeba-contact{
     display: flex;
-    align-items: center;
-    margin-left: 30%;
     gap: 10px;
+    border: whitesmoke solid 2px;
+    border-radius: 10px;
+    padding: 10px;
 }
 .omeba-insta img{
     width: 30px;
+    height: 30px;
     margin: 0;
 }
-.omeba-insta p{
-    
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 .omeba-quotation img{
-    width: 32px;
+    width: 35px;
+    height: 32px;
     margin: 0;
 }
 .omeba-contact img{
-    width: 30px;
+    width: 32px;
+    height: 30px;
     margin: 0;
 }
