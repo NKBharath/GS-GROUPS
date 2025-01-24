@@ -34,6 +34,7 @@ const Omeba = () => {
     <div className="body-omeba-container" ref={omebaref}>
         <div className="body-omeba-container-left">
             <img src={omeba} alt="omeba background" />
+            <p>we provide iv packages, family tour</p>
         </div>
         
         <div className="body-omeba-container-right">

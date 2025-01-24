@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Swipe from './swipe';
 import Omeba from './omeba';
 import './body.css'
-
+import Details from './details';
 const Body = () => {
   
 
@@ -10,6 +10,7 @@ const Body = () => {
     <div className="body-container">
       <Swipe />
       <Omeba />
+      <Details />
     </div>
   );
 };

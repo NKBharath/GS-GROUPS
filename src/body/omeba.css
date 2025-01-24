@@ -1,13 +1,28 @@
-
-.body-omeba-container{
+.body-omeba-container {
     display: flex;
 }
-.body-omeba-container img{
-    width: 650px;
-    margin-top: -80px;
-    
+
+.body-omeba-container-left {
+    position: relative;
+    display: inline-block;
 }
-.body-omeba-container-right{
+
+.body-omeba-container-left img {
+    width: 850px;
+    margin-top: -80px;
+    display: block;
+}
+
+.body-omeba-container-left p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.body-omeba-container-right {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -20,9 +35,10 @@
     border-radius: 50px;
     overflow: hidden;
 }
+
 .omeba-insta,
 .omeba-quotation,
-.omeba-contact{
+.omeba-contact {
     display: flex;
     gap: 10px;
     border: whitesmoke solid 2px;
@@ -30,80 +46,95 @@
     padding: 10px;
     overflow: hidden;
 }
-.omeba-insta img{
+
+.omeba-insta img {
     width: 30px;
     height: 30px;
     margin: 0;
 }
-.para{
+
+.para {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.omeba-quotation img{
+
+.omeba-quotation img {
     width: 35px;
     height: 32px;
     margin: 0;
 }
-.omeba-contact img{
+
+.omeba-contact img {
     width: 32px;
     height: 30px;
     margin: 0;
 }
+
 .hidden {
     opacity: 0;
     transform: translateX(-450px);
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
-.animate{
+
+.animate {
     animation-duration: 1s;
     animation-fill-mode: both;
 }
-.animate.animate--delay-05s{
+
+.animate.animate--delay-05s {
     animation-delay: 0.5s;
 }
-.animate.animate--delay-1s{
+
+.animate.animate--delay-1s {
     animation-delay: 1s;
 }
 
 @keyframes slideinleft {
-    from{
+    from {
         transform: translateX(-450px);
         opacity: 0;
-    } 30%{
+    } 
+    30% {
         opacity: 0;
-    }to {
+    } 
+    to {
         transform: translateX(0px);
         opacity: 1;
     }
 }
 
-.slideinleft{
+.slideinleft {
     animation-name: slideinleft;
     animation-timing-function: ease-in;
 }
+
 @keyframes fadein {
-    from{
+    from {
         transform: translateY(100px);
         opacity: 0;
-    } to {
+    } 
+    to {
         transform: translateY(0px);
         opacity: 1;
     }
 }
 
-.fadein{
+.fadein {
     animation-name: fadein;
     animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-fill-mode: both;
 }
-.p-animate-delay-1{
+
+.p-animate-delay-1 {
     animation-delay: 2.2s;
 }
-.p-animate-delay-2{
+
+.p-animate-delay-2 {
     animation-delay: 2.6s;
 }
-.p-animate-delay-3{
+
+.p-animate-delay-3 {
     animation-delay: 3s;
 }
