@@ -1,6 +1,6 @@
 .swiper-main-container{
     max-width: 100%;
-    margin: 20px auto;
+    margin: 40px auto;
     margin-bottom: 50px;
   }
   
@@ -54,7 +54,7 @@
     left: 60% !important;
     transform: translateX(-58%) !important;
   }
-  
+
   .slider-controler .swiper-button-prev {
     left: 40% !important;
     transform: translateX(-58%) !important;
@@ -109,7 +109,7 @@
   
   .swiper-pagination {
     position: relative;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   
   .swiper-pagination .swiper-pagination-bullet {
