@@ -11,6 +11,7 @@ const busData = [
       id: 1,
       busname: "name1",
       image: image_slide_1,
+      capacity: 50,
       packages: [
         { name: "Package 1", details: "Details of Package 1 for Bus 1" },
         { name: "Package 2", details: "Details of Package 2 for Bus 1" },
@@ -28,6 +29,7 @@ const busData = [
       id: 2,
       busname:"name2",
       image: image_slide_2,
+      capacity: 50,
       packages: [
         { name: "Package 1", details: "Details of Package 1 for Bus 1" },
         { name: "Package 2", details: "Details of Package 2 for Bus 1" },
@@ -45,6 +47,7 @@ const busData = [
       id: 3,
       busname: "name3",
       image: image_slide_3,
+      capacity: 50,
       packages: [
         { name: "Package 1", details: "Details of Package 1 for Bus 1" },
         { name: "Package 2", details: "Details of Package 2 for Bus 1" },
@@ -62,6 +65,7 @@ const busData = [
       id: 4,
       busname: "name4",
       image: image_slide_4,
+      capacity: 50,
       packages: [
         { name: "Package 1", details: "Details of Package 1 for Bus 1" },
         { name: "Package 2", details: "Details of Package 2 for Bus 1" },
@@ -79,6 +83,7 @@ const busData = [
       id: 5,
       busname: "name5",
       image: image_slide_5,
+      capacity: 50,
       packages: [
         { name: "Package 1", details: "Details of Package 1 for Bus 1" },
         { name: "Package 2", details: "Details of Package 2 for Bus 1" },
@@ -96,6 +101,7 @@ const busData = [
       id: 6,
       busname: "name5",
       image: image_slide_6,
+      capacity:50,
       packages: [
         { name: "Package 1", details: "Details of Package 1 for Bus 1" },
         { name: "Package 2", details: "Details of Package 2 for Bus 1" },
@@ -113,6 +119,7 @@ const busData = [
       id: 7,
       busname: "name5",
       image: image_slide_7,
+      capacity:50,
       packages: [
         { name: "Package 1", details: "Details of Package 1 for Bus 1" },
         { name: "Package 2", details: "Details of Package 2 for Bus 1" },
@@ -130,6 +137,7 @@ const busData = [
       id: 8,
       busname: "name5",
       image: image_slide_8,
+      capacity:50,
       packages: [
         { name: "Package 1", details: "Details of Package 1 for Bus 1" },
         { name: "Package 2", details: "Details of Package 2 for Bus 1" },
