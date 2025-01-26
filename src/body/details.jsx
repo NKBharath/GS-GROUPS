@@ -2,29 +2,12 @@ import React, {useState} from 'react'
 import './details.css'
 import busData from '../assets/busdata';
 const Details = () => {
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const [selectedPackage, setSelectedPackage] = useState(null);
-  
-    const busesPerPage = 3;
-    const currentBuses = busData.slice(
-      currentIndex,
-      currentIndex + busesPerPage
-    );
-  
-    const handleNext = () => {
-      if (currentIndex + busesPerPage < busData.length) {
-        setCurrentIndex(currentIndex + busesPerPage);
-      }
-    };
-  
-    const handlePrev = () => {
-      if (currentIndex - busesPerPage >= 0) {
-        setCurrentIndex(currentIndex - busesPerPage);
-      }
-    };
+    const[selectedPackage,setSelectedPackage] = useState(null);
+
   return (
-    <div className="container">
-      {currentBuses.map((bus) => (
+    <div className="details-main-container">
+      <div className="details-card-container">
+      {busData.map((bus) => (
         <div className="card" key={bus.id}>
           <img src={bus.image} alt={`Bus ${bus.id}`} className="bus-image"/>
           <div className="packages">
@@ -40,17 +23,6 @@ const Details = () => {
           </div>
         </div>
       ))}
-
-      <div className="navigation">
-        <button onClick={handlePrev} disabled={currentIndex === 0}>
-          Previous
-        </button>
-        <button
-          onClick={handleNext}
-          disabled={currentIndex + busesPerPage >= busData.length}
-        >
-          Next
-        </button>
       </div>
 
       {selectedPackage && (

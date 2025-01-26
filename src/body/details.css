@@ -1,14 +1,14 @@
 .details-main-container{
-    background: #000;
+    
 }
-.container {
+.details-card-container{
+    border: #0056b3 2px solid;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-  }
+    padding: 10px;
+}
   .card {
     border: 1px solid #ccc;
+    background-color: #0056b3;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -36,22 +36,6 @@
   }
   .package-button:hover {
     background-color: #0056b3;
-  }
-  .navigation {
-    margin-top: 20px;
-  }
-  .navigation button {
-    padding: 10px 20px;
-    margin: 0 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-  }
-  .navigation button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
   }
   .modal {
     position: fixed;

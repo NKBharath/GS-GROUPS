@@ -2,11 +2,15 @@
     margin: 0;
 }
 .header{
-    background-color: aqua;
+    background-color:#1e1e1e;
+    color: rgba(224, 224, 224, 0.6);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 80px;
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -15,15 +19,18 @@
     padding-left: 40px;
 }
 .left-header-section img{
-    width: 200px;
-    margin-top: 40px;
+    width: 170px;
+    margin-top: 10px;
     /*background: black;*/
 
 }
 .middle-header-section{
     display: flex;
     gap: 20px;
+    
 }
 .right-header-section{
+    min-width: 200px;
+    text-align: end;
     padding-right: 40px;
 }
