@@ -10,8 +10,7 @@
     gap: 10px;
 }
   .card-holder{
-    border: 1px solid #ccc;
-    background-color: #ffb1f6;
+    background-color: #32323c;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -37,9 +36,8 @@
     grid-template-columns: repeat(4,1fr);
   }
   .package-button {
-    background-image: linear-gradient(to right top, #582e51, #7a3061, #9f2d6b, #c5246f, #eb126d);
-    color: #fff;
-    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.323);
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
