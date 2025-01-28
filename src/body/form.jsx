@@ -33,15 +33,18 @@ const Form = () => {
         </div>
       <form  className='contact-right' onSubmit={onSubmit}>
         <input type="text" name="name1" required placeholder={"Name 1"}/>
-        <input type="number" name='number1' required placeholder={"Contact 1"}/>
+        <input type="tel" name='number1' required placeholder={"Contact 1"}/>
         <input type="text" name="name2" required placeholder={"Name 2"}/>
-        <input type="number" name='number2' required placeholder={"contact 2"}/>
-        <input type="text" name='clgname' required placeholder={"Enter your college name"}/>
+        <input type="tel" name='number2' required placeholder={"contact 2"}/>
+        <input type="text" name='clgname' required placeholder={"College name"}/>
+        <input type="text" name='clglocation' required placeholder={"College Location"}/>
         <input type="text" name='busname1' required placeholder={"Preffered bus1"}/>
         <input type="text" name='busname2' required placeholder={"Preffered bus2"}/>
         <input type="text" name='busname3' required placeholder={"Preffered bus3"}/>
+        <div className="form-date-container">
         <input type="date" name='startdate' required placeholder={"IV Start Date"}/>
         <input type="date" name='enddate' required placeholder={"IV End Date"}/>
+        </div>
         <textarea name="message" placeholder='Any doughts?'></textarea>
         <button type="submit">Submit Form</button>
 
