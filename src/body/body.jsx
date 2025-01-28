@@ -3,6 +3,7 @@ import Swipe from './swipe';
 import Omeba from './omeba';
 import './body.css'
 import Details from './details';
+import Form from './form';
 const Body = () => {
   
 
@@ -11,6 +12,7 @@ const Body = () => {
       <Swipe />
       <Omeba />
       <Details />
+      <Form />
     </div>
   );
 };
