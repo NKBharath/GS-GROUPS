@@ -1,18 +1,68 @@
-.contact-container{
+.contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px;
     padding-left: 80px;
+    align-items: center;
+    color: white;
 }
-.contact-right{
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-icon {
+    width: 24px; /* Set the size you want for the icons */
+    height: 24px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 200px;
+}
+
+.contact-left h1 {
+    font-size: 2rem;
+    background: linear-gradient(90deg, #ff00ff, #ff6600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-left p {
+    font-size: 1rem;
+    color: rgba(220, 220, 220, 0.8);
+}
+
+.contact-left .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info i {
+    font-size: 1.5rem;
+    color: #ff6600;
+}
+
+.contact-right {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     width: 500px;
 }
+
 .contact-right input, 
-.contact-right textarea{
+.contact-right textarea {
     padding: 10px;
     height: 30px;
     border: none;
@@ -20,29 +70,34 @@
     background-color: #1e1e1e;
     color: white;
 }
-.contact-right textarea{
+
+.contact-right textarea {
     grid-column: 1/-1;
     height: 100px;
 }
+
 .contact-right input::placeholder, 
-.contact-right textarea::placeholder{
+.contact-right textarea::placeholder {
     padding-left: 10px;
     color: rgba(220, 220, 220, 0.69);
 }
-.form-date-container{
+
+.form-date-container {
     grid-column: 1 / -1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
-input[type="date"]{
+
+input[type="date"] {
     color: rgba(220, 220, 220,  0.69);
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
     display: none;
 }
-.contact-right button{
+
+.contact-right button {
     grid-column: 1/-1;
     height: 40px;
     width: 120px;
@@ -52,8 +107,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-color: transparent;
     color: white;
     border: 2px solid white;
+    cursor: pointer;
 }
-.details-select{
+
+.contact-right button:hover {
+    background-color: white;
+    color: #1e1e1e;
+}
+
+.details-select {
     grid-column: 1/-1;
     padding: 10px;
     height: 50px;
@@ -62,8 +124,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-color: #1e1e1e;
     color: white;
 }
+
 .college-details,
-.family-details{
+.family-details {
     grid-column: 1/-1;
     display: grid;
     grid-template-columns: 1fr 1fr;
