@@ -46,13 +46,17 @@ const Form = () => {
   return (
     <div className="contact-container">
       <div className="contact-left">
-      <h2>Let's <span>Plan Your Trip</span></h2>
+        <div className="contact-header">
+          <h2>Let's <span>Plan Your Trip</span></h2>
+        </div>
+        <div className="contact-body">
         <p>We provide the best IV and family trip bus services.</p>
         <p>Contact us for bookings and inquiries.</p>
+        </div>
         <div className="contact-info">
         <div className="contact-info-item">
           <img src={gmail} alt="Gmail" className="contact-icon" />
-          <p>Gsgroupsweb@gmail.com</p>
+          <p>gsgroupsweb@gmail.com</p>
         </div>
         <div className="contact-info-item">
           <img src={phone} alt="Phone" className="contact-icon" />

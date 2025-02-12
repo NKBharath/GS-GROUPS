@@ -7,52 +7,49 @@
     align-items: center;
     color: white;
 }
-.contact-info-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.contact-icon {
-    width: 24px; /* Set the size you want for the icons */
-    height: 24px;
-}
 
 .contact-left {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-left: 200px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
 }
 
-.contact-left h1 {
-    font-size: 2rem;
-    background: linear-gradient(90deg, #ff00ff, #ff6600);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.contact-info-item img {
+    width: 24px; /* Set the size you want for the icons */
+    height: 24px;
 }
 
-.contact-left p {
+.contact-info-item p {
+    margin-left: 20px;
+}
+
+.contact-header h2 {
+    font-size: 2.5rem;
+    color: rgba(220, 220, 220, 0.8);
+}
+.contact-body p {
+    margin-left: 50px;
     font-size: 1rem;
     color: rgba(220, 220, 220, 0.8);
 }
 
-.contact-left .contact-info {
+.contact-info {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.contact-info div {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 
-.contact-info i {
-    font-size: 1.5rem;
-    color: #ff6600;
-}
+
+
 
 .contact-right {
     display: grid;
