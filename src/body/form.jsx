@@ -44,7 +44,7 @@ const Form = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div id="booking" className="contact-container">
       <div className="contact-left">
         <div className="contact-header">
           <h2>Let's Talk <span>Plan Your Trip</span></h2>

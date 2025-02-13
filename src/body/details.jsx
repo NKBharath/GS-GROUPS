@@ -5,7 +5,7 @@ const Details = () => {
     const[selectedPackage,setSelectedPackage] = useState(null);
 
   return (
-    <div className="details-main-container">
+    <div id='packages' className="details-main-container">
       <div className="details-card-container">
         {busData.map((bus) => (
           <div className="card-holder" key={bus.id}>

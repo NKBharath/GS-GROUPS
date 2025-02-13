@@ -19,7 +19,7 @@ import image_slide_7 from '../assets/bus-photos/img_7.jpg'
 
 const Swipe = () => {
   return (
-    <div className='swiper-main-container'>
+    <div id='home' className='swiper-main-container '>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

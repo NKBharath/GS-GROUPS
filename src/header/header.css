@@ -1,6 +1,10 @@
 *{
     margin: 0;
 }
+.navbar-scroll{
+    color: antiquewhite;
+    text-decoration: none;
+}
 .header{
     background-color:#1e1e1e;
     color: rgba(224, 224, 224, 0.6);
@@ -26,8 +30,14 @@
 }
 .middle-header-section{
     display: flex;
-    gap: 20px;
-    
+    gap: 20px;   
+}
+.anchor-link{
+    color: rgba(224, 224, 224, 0.6);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
 }
 .right-header-section{
     min-width: 200px;

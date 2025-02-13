@@ -1,4 +1,3 @@
-import React, { useEffect, useRef, useState } from 'react';
 import Swipe from './swipe';
 import Omeba from './omeba';
 import './body.css'
@@ -14,6 +13,7 @@ const Body = () => {
       <Details />
       <Form />
     </div>
+    
   );
 };
 
