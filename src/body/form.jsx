@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./form.css";
-import gmail from "../assets/gmail-icon.png"
-import phone from "../assets/phone-icon.png"
+import gmail_icon from "../assets/mail_icon.svg"
+import phone_icon from "../assets/call_icon.svg"
 const Form = () => {
   const [category, setCategory] = useState("");
   const [result, setResult] = useState("");
@@ -47,21 +47,21 @@ const Form = () => {
     <div className="contact-container">
       <div className="contact-left">
         <div className="contact-header">
-          <h2>Let's <span>Plan Your Trip</span></h2>
+          <h2>Let's Talk <span>Plan Your Trip</span></h2>
         </div>
         <div className="contact-body">
-        <p>We provide the best IV and family trip bus services.</p>
-        <p>Contact us for bookings and inquiries.</p>
+          <p>We provide the best IV and family trip bus services.</p>
+          <p>Contact us for bookings and inquiries.</p>
         </div>
         <div className="contact-info">
-        <div className="contact-info-item">
-          <img src={gmail} alt="Gmail" className="contact-icon" />
-          <p>gsgroupsweb@gmail.com</p>
-        </div>
-        <div className="contact-info-item">
-          <img src={phone} alt="Phone" className="contact-icon" />
-          <p>+916374544470</p>
-        </div>
+          <div className="contact-info-item">
+            <img src={gmail_icon} alt="Gmail"/>
+            <p>gsgroupsweb@gmail.com</p>
+          </div>
+          <div className="contact-info-item">
+            <img src={phone_icon} alt="Phone"/>
+            <p>+916374544470</p>
+          </div>
       </div>
       </div>
       <form className="contact-right" onSubmit={onSubmit}>
